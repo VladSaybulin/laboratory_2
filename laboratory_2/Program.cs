@@ -3,7 +3,7 @@ do
 {
     try
     {
-        arraySize = int.Parse(Console.ReadLine()!);
+        arraySize = Convert.ToInt23(Console.ReadLine());
         if (arraySize < 1)
         {
             Console.WriteLine("Введите число больше 0");
